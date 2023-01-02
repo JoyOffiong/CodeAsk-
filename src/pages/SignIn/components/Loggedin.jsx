@@ -49,7 +49,7 @@ export const Loggedin = () => {
           setSubmitting(true);
 
           try {
-            let response = await axios.post(
+            let response = await axios.get(
               "https://code-ask-backend-production.up.railway.app/v1/api/auth/signin",
               {
                 email,

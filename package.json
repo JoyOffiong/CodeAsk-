@@ -65,5 +65,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://codeask-staging.herokuapp.com/v1/api/"
+  "proxy": "https://code-ask-backend-production.up.railway.app/v1/api/"
 }

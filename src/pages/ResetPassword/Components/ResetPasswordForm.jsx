@@ -30,7 +30,7 @@ export const ResetPasswordForm = () => {
   const[searchParams] = useSearchParams()
   let token = searchParams.get("token")
   console.log(token)
-  console.log(`https://codeask-staging.herokuapp.com/v1/api/auth/reset-password?token=${token}`)
+  console.log(`https://code-ask-backend-production.up.railway.app/v1/api/auth/reset-password?token=${token}`)
 
 
 
@@ -63,7 +63,7 @@ function toggleConfirmPassword(){
 
           try {
             let response = await axios.post(
-              `https://codeask-staging.herokuapp.com/v1/api/auth/reset-password?token=${token}`,
+              `https://code-ask-backend-production.up.railway.app/v1/api/auth/reset-password?token=${token}`,
               {
                 password
               }

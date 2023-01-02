@@ -42,7 +42,7 @@ export const ForgotPasswordForm = () => {
 
             try {
               let response = await axios.post(
-                "https://codeask-staging.herokuapp.com/v1/api/auth/forgot-password",
+                "https://code-ask-backend-production.up.railway.app/v1/api/auth/forgot-password",
                 {
                   email,
                 }
